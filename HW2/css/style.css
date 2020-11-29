@@ -11,7 +11,7 @@ body {
 }
 
 .background-color {
-  background: #ffffff(11, 35, 88);
+  background: #ffffff;
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
@@ -56,7 +56,7 @@ body {
   color: #6c737d;
 }
 
-.bykovku-hyukovku {
+.C-and-E-in-contacts {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
@@ -97,7 +97,7 @@ body {
   margin-top: 55px;
 }
 
-.Soft-skill-title {
+.soft-skill-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
@@ -195,7 +195,7 @@ body {
   color: #a8a8a8;
 }
 
-.rozpodil {
+.symbol {
   color: #000000;
 }
 
