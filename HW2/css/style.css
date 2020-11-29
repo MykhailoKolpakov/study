@@ -10,7 +10,7 @@ body {
   padding: 40px;
 }
 
-.background-color {
+.wrapper {
   background: #ffffff;
   display: flex;
   max-width: 1200px;
@@ -56,7 +56,7 @@ body {
   color: #6c737d;
 }
 
-.C-and-E-in-contacts {
+.c-and-e-in-contacts {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
