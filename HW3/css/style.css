@@ -6,10 +6,12 @@ body {
   padding: 5px;
   border: 2px solid black;
   color: black;
+  border-collapse: collapse;
 }
 .th-td-info {
   border: 2px solid black;
   color: black;
+  padding: 10px;
 }
 .wrapper {
   background: cornsilk;
