@@ -1,0 +1,17 @@
+body {
+  background: cornsilk;
+  padding: 30px;
+}
+.table-info {
+  padding: 5px;
+  border: 2px solid black;
+  color: black;
+}
+.th-td-info {
+  border: 2px solid black;
+  color: black;
+}
+.wrapper {
+  background: cornsilk;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}

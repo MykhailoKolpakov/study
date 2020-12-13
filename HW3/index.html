@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW#3</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <h1 class="title-hw">Домашнє завдання №3</h1>
+    <table class="table-info"> 
+        <thead class="head-table">
+            <tr>
+                <th class="th-td-info">Прізвище</th>
+                <th class="th-td-info">Ім'я</th>
+                <th class="th-td-info">Телефон</th>
+                <th class="th-td-info">Імейл</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="th-td-info">Іван</td>
+                <td class="th-td-info">Петренко</td>
+                <td class="th-td-info">236-25-23</td>
+                <td class="th-td-info">Ivan@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="th-td-info">Макеренко</td>
+                <td class="th-td-info">Василь</td>
+                <td class="th-td-info">459-20-35</td>
+                <td class="th-td-info">Vas@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="th-td-info">Коваль</td>
+                <td class="th-td-info">Петро</td>
+                <td class="th-td-info">526-35-65</td>
+                <td class="th-td-info">Petro@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="th-td-info">Пастушенко</td>
+                <td class="th-td-info">Олег</td>
+                <td class="th-td-info">258-65-59</td>
+                <td class="th-td-info">Oleg@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+        <form action="#">
+                <p>
+                    <input type="text" placeholder="Введіть Ваше ім'я">
+                </p>
+                <p>
+                    <input type="text" placeholder="Введіть Ваше прізвище">
+                </p>
+            <h2>Вкажіть Вашу стать</h2>
+                <div>
+                    <input type="radio" id="choice1" name="gender" value="male"checked>
+                    <label for="choice1">Чоловік</label>
+                    <input type="radio" id="choice2" name="gender" value="female">
+                    <label for="choice2">Жінка</label> 
+                    <input type="radio" id="choice3" name="gender" value="other">
+                    <label for="choice3">Інша</label>
+                </div>
+                    <p>
+                        <textarea name="" id="#" placeholder="Введіть ваше питання" cols="30" rows="10"></textarea>
+                    </p>
+                <div>
+                    <select name="Виберіть місто" id="choicecity">
+                        <option value="Виберіть місто" selected="#" disabled="#" >Виберіть місто</option>
+                        <option value="Київ">Київ</option>
+                        <option value="Харків">Харків</option>
+                        <option value="Львів">Львів</option>
+                        <option value="Чернігів">Чернігів</option>
+                        <option value="Дрогобич">Дрогобич</option>
+                    </select>
+                </div>
+            <h2>Вибір мови</h2> 
+                <div>
+                    <p>
+                        <input type="checkbox" id="uk" name="language" value="Ukrainian"> 
+                        <label for="uk">Українська</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="eng" name="language" value="English"> 
+                        <label for="eng">Англійська</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="zh" name="language" value="Chinese"> 
+                        <label for="zh">Китайська</label>
+                    </p>
+                    <button>Відправити</button>
+                </div>
+        </form>
+        </div>
+
+</body>
+</html>
